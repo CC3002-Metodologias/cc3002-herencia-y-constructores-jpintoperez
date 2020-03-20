@@ -1,4 +1,11 @@
 public class Persona {
+
+    public Persona( String name, String occupation, int age) {
+        nombre = name;
+        ocupacion = occupation;
+        edad = age;
+    }
+
     protected String nombre;
     protected String ocupacion;
     protected int edad;
@@ -12,6 +19,6 @@ public class Persona {
     }
 
     public String hacerLoSuyo() {
-        return "";
+        return "Estoy en cuarentena uwu";
     }
 }
